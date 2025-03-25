@@ -11,14 +11,14 @@ def collatz_sequence(n):
         sequence.append(n)
     return sequence
 
-results = [] # Lista para almacenar los resultados de la secuencia de Collatz
+results = [] # Lista para almacenar los resultados de la secuencia 
 
 for n in range(1, 1001):
     sequence = collatz_sequence(n)
     iterations = len(sequence) - 1 # El número de iteraciones es la longitud de la secuencia menos 1
     results.append((n, iterations))
 
-# Graficar los resultados
+# Graficar 
 x = [result[1] for result in results]
 y = [result[0] for result in results]
 
