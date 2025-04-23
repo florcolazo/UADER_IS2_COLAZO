@@ -34,5 +34,8 @@ def main():
         except Exception as e:
             print(f"Error inesperado: {e}")
 
+sugerencias = obtener_respuesta("¿Cómo puedo mejorar este código de Python?")
+print(f"chatGPT sugiere: {sugerencias}")   
+
 if __name__ == "__main__":
     main()
