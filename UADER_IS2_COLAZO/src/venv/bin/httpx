@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/home/florenia/FACULTAD 2025/IS2/TP 2/venv/bin/python3" "$0" "$@"
+'''exec' "/home/florenia/FACULTAD 2025/IS2/TP_2/venv/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
